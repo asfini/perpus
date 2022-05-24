@@ -68,6 +68,6 @@ if (isset($_POST['update'])) {
     $stok = $_POST['stok'];
 
     mysqli_query($koneksi, "UPDATE buku SET judul = '$judul',penulis = '$penulis', penerbit = '$penerbit',tahun_terbit = '$tahun_terbit', stok ='$stok' WHERE id_buku = '$id_buku'");
-    header("location:../buku.php");
+    header("location:https://rpl.sementara.site/buku.php");
 }
 ?>
